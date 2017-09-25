@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/**
+ * @author: zhanghuan
+ * @create: 2017/9/13
+ * @describe: 在线考试
+ */
+
+$w: 200px;
+div{
+  display: flex;
+  width: $w;
+  height: 100px;
+  background: green;
+}

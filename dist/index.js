@@ -1,0 +1,1 @@
+"use strict";define(function(n,i,t){function o(){this.init.apply(this,arguments)}o.prototype={init:function(){avalon.define({$id:"index",data:[1,2,5],init:function(){console.log("a",avalon)}}).init(),avalon.scan(document.body)}},t.exports=new o});

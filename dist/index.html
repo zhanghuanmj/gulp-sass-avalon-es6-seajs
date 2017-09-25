@@ -1,0 +1,11 @@
+<!--
+ * @author: zhanghuan
+ * @create: 2017/9/13
+ * @describe: 首页
+--><!DOCTYPE html><html><head><meta charset="UTF-8"><title>Title</title><link href="css/index.css" rel="stylesheet" type="text/css"></head><body><div :controller="index" class="ms-controller"><div class="div" :for="(index, item) in @data">{{item}}</div></div><script src="libs/sea.js"></script><script src="libs/seajs-preload.js"></script><script src="libs/sea.config.js"></script><!--[if (IE 6)|(IE 7)|(IE 8)]>
+    <script>
+        seajs.use('IE7');
+        seajs.use('json3');
+        seajs.use('promise');
+    </script>
+    <![endif]--><script>seajs.use('index');</script></body></html>
